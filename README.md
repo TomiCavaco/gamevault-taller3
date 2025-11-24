@@ -1,42 +1,62 @@
-# game_vault
+# GameVault
 
-Puedes usar este texto:
+GameVault es una aplicación Flutter creada para la gestión y visualización de videojuegos. Permite organizar títulos, ver detalles, añadir nuevos juegos y explorar una interfaz moderna y sencilla.
 
-# GameVault 🎮
+## 🚀 Características principales
 
-La aplicación muestra juegos, categorías y favoritos usando widgets organizados y navegación con TabBar y Drawer.
+* Lista de videojuegos con portada, nombre y detalles.
+* Vista detallada de cada juego.
+* Navegación sencilla mediante pantallas y widgets propios de Flutter.
+* Proyecto estructurado siguiendo buenas prácticas.
 
-## 🚀 Cómo ejecutar
+## 📁 Estructura del proyecto
 
-1. Instalar Flutter
-2. Clonar el repositorio:
-
-git clone https://github.com/TU_USUARIO/gamevault.git
-
-3. Entrar al proyecto:
-
-cd gamevault
-
-
-4. Descargar dependencias:
-
-flutter pub get
-
-5. Ejecutar:
-
-flutter run
-
-
-##  Estructura del proyecto
-
+```
 lib/
-├── main.dart
-├── screens/
-│ └── home_screen.dart
-└── widgets/
-├── app_drawer.dart
-├── games_grid.dart
-└── categories_list.dart
+ ├── main.dart
+ ├── models/
+ ├── screens/
+ ├── widgets/
+ └── utils/
+```
 
-##  Capturas
-Las capturas están incluidas en el PDF adjunto.
+## 🛠️ Tecnologías usadas
+
+* **Flutter** (Dart)
+* **Material Design**
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Instala Flutter en tu sistema.
+2. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/LambdaShuttle21/gamevault2.git
+   ```
+3. Entra al directorio del proyecto:
+
+   ```bash
+   cd gamevault2/game_vault
+   ```
+4. Ejecuta:
+
+   ```bash
+   flutter pub get
+   flutter run
+   ```
+
+## 📤 Entrega
+
+Este repositorio contiene todo el código fuente solicitado para la práctica. Incluye:
+
+* Proyecto Flutter completo.
+* Archivo README.md con la documentación mínima.
+
+## 👤 Autor
+
+**Pedro Cazot (LambdaShuttle21)**
+
+---
+
+Si necesitas añadir capturas, instrucciones más técnicas o una descripción más formal según lo que pida tu profe, dímelo y lo ajustamos. 🚀
+
