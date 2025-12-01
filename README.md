@@ -2,14 +2,14 @@
 
 GameVault es una aplicación Flutter creada para la gestión y visualización de videojuegos. Permite organizar títulos, ver detalles, añadir nuevos juegos y explorar una interfaz moderna y sencilla.
 
-## 🚀 Características principales
+## Características principales
 
 * Lista de videojuegos con portada, nombre y detalles.
 * Vista detallada de cada juego.
 * Navegación sencilla mediante pantallas y widgets propios de Flutter.
 * Proyecto estructurado siguiendo buenas prácticas.
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 lib/
@@ -20,12 +20,12 @@ lib/
  └── utils/
 ```
 
-## 🛠️ Tecnologías usadas
+##  Tecnologías usadas
 
 * **Flutter** (Dart)
 * **Material Design**
 
-## ▶️ Cómo ejecutar el proyecto
+##  Cómo ejecutar el proyecto
 
 1. Instala Flutter en tu sistema.
 2. Clona el repositorio:
@@ -45,16 +45,16 @@ lib/
    flutter run
    ```
 
-## 📤 Entrega
+##  Entrega
 
 Este repositorio contiene todo el código fuente solicitado para la práctica. Incluye:
 
 * Proyecto Flutter completo.
 * Archivo README.md con la documentación mínima.
 
-## 👤 Autor
+##  Autor
 
-**Pedro Cazot (LambdaShuttle21)**
+**Tomas Cavaco**
 
 ---
 
