@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../services/settings_service.dart'; // importa tu SettingsService
 
 class AddGameScreen extends StatefulWidget {
   const AddGameScreen({super.key});
@@ -12,7 +13,7 @@ class _AddGameScreenState extends State<AddGameScreen> {
   final tituloController = TextEditingController();
 
   // RadioListTile (plataforma)
-  String plataforma = 'PC';
+  String plataforma = SettingsService.instance.preferredPlatform;
 
   // CheckboxListTile (géneros)
   final Map<String, bool> generos = {
@@ -166,4 +167,3 @@ class _AddGameScreenState extends State<AddGameScreen> {
     );
   }
 }
-
